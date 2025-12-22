@@ -5,8 +5,9 @@ public class Driver {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                GameWindow main = new GameWindow();
+                MainWindow main = new MainWindow();
                 main.show();
+
             }
         });
     }
